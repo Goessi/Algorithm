@@ -117,6 +117,6 @@ def green_mask(hsv_image):
     else:
         return False
    ##############################################################featur create###########################################
-   def estimate_label(rgb_image):
+def estimate_label(rgb_image):
     feature = create_feature(rgb_image)   
     return feature
