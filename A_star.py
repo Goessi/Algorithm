@@ -1,3 +1,5 @@
+BFS Breadth First Search
+
 def shortest_path(M,start,goal):
     open_nodes = {}
     closed_nodes = []
