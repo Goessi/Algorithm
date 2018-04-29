@@ -1,5 +1,9 @@
 BFS Breadth First Search
 
+广度优先可以找出是否有A到B的路径已经A到B的最短路径
+队列是先进先出的，而栈是后进后出的
+所以搜索列表必须是队列
+
 def shortest_path(M,start,goal):
     open_nodes = {}
     closed_nodes = []
