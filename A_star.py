@@ -1,8 +1,13 @@
 BFS Breadth First Search
-
-广度优先可以找出是否有A到B的路径已经A到B的最短路径
+广度优先可以找出是否有A到B的路径已经A到B的最短路径，指的是段数最少。适用于非加权图。
 队列是先进先出的，而栈是后进后出的
 所以搜索列表必须是队列
+
+Dijkstra algorithm
+在迪克斯特拉算法中，可以找出A到B的最短路径，指的是总权重最小。适用于加权无环图且图中没有负权重。
+
+Bellman-ford algorithm
+适用于有负权重的图
 
 def shortest_path(M,start,goal):
     open_nodes = {}
